@@ -1,0 +1,141 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="padding_todos ion-justify-content-center">
+      <ion-col size="12" class="ion-text-center ion-padding-top ion-padding-bottom">
+        <h1 class="titutlo_subtitulo">Inbox</h1>
+      </ion-col>
+      <ion-col size="12">
+        <ion-select placeholder="Select One" class="colo_00 input_select" mode="ios">
+          <ion-select-option value="f">Female</ion-select-option>
+          <ion-select-option value="m">Male</ion-select-option>
+        </ion-select>        
+      </ion-col>
+    </ion-row>
+    <ion-row class="padding_todos">
+      <ion-col size="12" style="display: flex;">
+        <div class="div_azul" id="padding_derecha"></div>
+        <p id="letra_azul">Nuevos</p>
+        <div class="div_azul" id="padding_izquierda"></div>
+      </ion-col>
+      <ion-col size="12">
+        <ion-row>
+         <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+         <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_blanco_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_plomo_blanco_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_plomo_blanco_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_verde_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+    <ion-row class="padding_todos">
+      <ion-col size="12" style="display: flex;">
+        <div class="div_azul" id="padding_derecha"></div>
+        <p id="letra_azul">Leidos</p>
+        <div class="div_azul" id="padding_izquierda"></div>
+      </ion-col>
+      <ion-col size="12">
+        <ion-row class="card_blanco_transparent">
+         <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+         <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_blanco_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_plomo_blanco_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_plomo_blanco_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_verde_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+          </ion-card>
+        </ion-col>
+        </ion-row>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>

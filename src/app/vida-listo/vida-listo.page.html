@@ -1,0 +1,39 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="padding_todos ion-justify-content-center">
+      <ion-col size="12" class="ion-text-center" id="padding_col_titulo">
+        <img src="assets/img/a8ff65e7de21d4a66fa3d02c0b55ed9a.png">
+        <h1 class="titutlo_subtitulo">Solicitud de nuevo negocio</h1>
+        <p id="subtitulo_pequeño">Best indexed</p>
+      </ion-col>
+      <ion-col size="9" class="ion-text-center">
+        <p class="color_font_family" style="margin-bottom: 0px; margin-top: 0px;">Segun cobertura y edad Arroja la lista de chequeos</p>
+      </ion-col>
+      <ion-col size="12" class="ion-text-center">
+        <p class="color_font_family" id="margin_top_bottom">Escoge medico/laboratorio (select)</p>
+      </ion-col>
+      <ion-col size="7" size-sm="5" class="ion-margin-bottom">
+        <button class="btn_solicitar_web">Solicitar cita</button>
+      </ion-col>
+      <ion-col size="7" size-sm="5">
+        <button class="btn_solicitar_web">Visita web</button>
+      </ion-col>
+    </ion-row> 
+  </ion-grid>  
+</ion-content>

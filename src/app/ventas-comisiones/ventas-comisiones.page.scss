@@ -1,0 +1,211 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+
+/*fin menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titulos_subtitulos_todos{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #151515;
+    font-family: Century Gothic;
+}
+.margin_p_number{
+    margin-top: 1px;
+    margin-bottom: 0px;
+    font-family: Century Gothic;
+}
+.color_89{
+    color: #898989;
+}
+.bolder_number{
+    font-weight: 900;
+    font-size: 11px;
+}
+#mes_bol_color{
+    color: #151515;
+    font-weight: bolder;
+    font-family: Century Gothic;
+}
+#mes_number{
+    font-size: 10px;
+}
+.size_pa_pen{
+    font-size: 11px;
+}
+@media(min-width: 360px){
+    .size_pa_pen{
+        font-size: 13.6px;
+    } 
+    .bolder_number{
+        font-size: 14px;
+    }
+    #mes_number{
+        font-size: 12px;
+    }
+}
+.bolder_titulos{
+    font-weight: 900;
+    font-family: Century Gothic;
+    font-size: 22px;
+}
+.btn_blanco{
+    background-color: #ffffff;
+    color: #8D8D8D;
+    border: 1px solid #D8D8D8;
+    -webkit-box-shadow: 1px 3px 8px 1px rgba(214,214,214,1);
+    -moz-box-shadow: 1px 3px 8px 1px rgba(214,214,214,1);
+    box-shadow: 1px 3px 8px 1px rgba(214,214,214,1);
+    border-radius: 11px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-weight: 100;
+    font-size: 13px;
+}
+@media(min-width: 360px){
+    .btn_blanco{
+        font-size: 1rem;
+    }
+}
+.line_negro{
+    background-color: #8D8D8D;
+    height: 1px;
+    float: right;
+}
+.line_negro_3number{
+    width: 77%;
+}
+.line_negro_2number{
+    width: 70%;
+}
+@media(min-width: 411px){
+    .line_negro_3number{
+        width: 67%;
+    }
+    .line_negro_2number{
+        width: 61%;
+    }
+}
+@media(min-width: 568px){
+    .line_negro_3number{
+        width: 46%;
+    }
+    .line_negro_2number{
+        width: 42%;
+    }
+}
+@media(min-width: 640px){
+    .line_negro_3number{
+        width: 40%;
+    }
+    .line_negro_2number{
+        width: 36%;
+    }
+}
+@media(min-width: 736px){
+    .line_negro_3number{
+        width: 35%;
+    }
+    .line_negro_2number{
+        width: 31%;
+    }
+}
+@media(min-width: 812px){
+    .line_negro_3number{
+        width: 31%;
+    }
+    .line_negro_2number{
+        width: 28%;
+    }
+}
+@media(min-width: 823px){
+    .line_negro_3number{
+        width: 30%;
+    }
+    .line_negro_2number{
+        width: 27%;
+    }
+}
+@media(min-width: 1024px){
+    .line_negro_3number{
+        width: 24%;
+    }
+    .line_negro_2number{
+        width: 22%;
+    }
+}
+@media(min-width: 1366px){
+    .line_negro_3number{
+        width: 18%;
+    }
+    .line_negro_2number{
+        width: 16%;
+    }
+}
+.font_size_aset{
+    font-weight: bold;
+    margin-left: 11px;
+    font-family: Century Gothic;
+    font-size: 13px;
+}
+.number_agentes{
+    font-weight: 100;
+    margin-bottom: 0;
+    font-family: Century Gothic;
+    font-size: 13px;
+}
+@media(min-width: 360px){
+    .font_size_aset{
+       font-size: 16px;
+    }
+    .number_agentes{
+        font-size: 16px;
+    }
+}

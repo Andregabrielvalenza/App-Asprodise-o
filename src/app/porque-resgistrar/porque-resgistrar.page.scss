@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+ion-content{
+    --background: #00BBD8;
+    text-align: center;
+    --padding-start: 40px;
+    --padding-end: 40px;
+    --padding-top: 40px;
+    --padding-bottom: 40px;
+}
+@media(min-width: 768px){
+    ion-content{
+        --padding-start: 80px;
+        --padding-end: 80px;
+    }
+}
+@media(min-width: 1024px){
+    ion-content{
+        --padding-start: 120px;
+        --padding-end: 120px;
+        --padding-top: 120px;
+        --padding-bottom: 120px;
+    }
+}
+.btn_celste_tranparent{
+    background-color: transparent;
+    color: #ffffff;
+    width: 50%;
+    font-size: 20px;
+    display: flex;
+    font-family: Century Gothic;
+    font-weight: 500;
+}
+.icono_btn{
+    font-size: 20px;
+}
+.colo_blank{
+    color: #ffffff;
+    font-family: Century Gothic;
+}
+#titulo_bolder{
+    font-weight: 600;
+    font-size: 28px;
+    margin-top: 45%;
+}
+#texto_bolder{
+    font-weight: 500;
+    font-size: 17px;
+    margin-bottom: 45%;
+}
+@media(min-width: 360px){
+    #titulo_bolder{
+        margin-top: 45%;
+        font-size: 37px;
+    }
+    #texto_bolder{
+        margin-bottom: 45%;
+        font-size: 20px;
+    }
+}
+@media(min-width: 375px) and (min-height: 812px){
+    #titulo_bolder{
+        margin-top: 70%;
+    }
+    #texto_bolder{
+        margin-bottom: 70%;
+    }
+}
+@media(min-width: 411px) and (min-height: 731px){
+    #titulo_bolder{
+        margin-top: 53%;
+    }
+    #texto_bolder{
+        margin-bottom: 53%;
+    }
+}
+@media(min-width: 411px) and (min-height: 823px){
+    #titulo_bolder{
+        margin-top: 67%;
+    }
+    #texto_bolder{
+        margin-bottom: 67%;
+    }
+}
+@media(min-width: 568px){
+    #titulo_bolder{
+        margin-top: 15%;
+    }
+    #texto_bolder{
+        margin-bottom: 15%;
+    }
+}
+@media(min-width: 640px){
+    #titulo_bolder{
+        margin-top: 5%;
+    }
+    #texto_bolder{
+        margin-bottom: 5%;
+    }
+}
+@media(min-width: 731px){
+    #titulo_bolder{
+        margin-top: 10%;
+    }
+    #texto_bolder{
+        margin-bottom: 10%;
+    }
+}
+@media(min-width: 768px) and (min-height: 1024px){
+    #titulo_bolder{
+        margin-top: 57%;
+    }
+    #texto_bolder{
+        margin-bottom: 57%;
+    }
+}
+@media(min-width: 1024px)and (min-height: 768px){
+    #titulo_bolder{
+        font-size: 37px;
+    }
+    #texto_bolder{
+        font-size: 37px;
+    }
+    .btn_celste_tranparent{
+        font-size: 37px;
+    }
+    .icono_btn{
+        font-size: 37px;
+    }
+}
+@media(min-width: 1024px) and (min-height: 1366px){
+    #titulo_bolder{
+        margin-top: 40%;
+    }
+    #texto_bolder{
+        margin-bottom: 40%;
+    }
+    #img_logo{
+        width: 80%;
+    }
+}
+@media(min-width: 1366px){
+    #titulo_bolder{
+        margin-top: 18%;
+    }
+    #texto_bolder{
+        margin-bottom: 18%;
+    }
+    #img_logo{
+        width: 50%;
+    }
+}

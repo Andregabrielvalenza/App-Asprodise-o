@@ -1,0 +1,13 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+ion-list {
+   border: 1px solid #CCCCCC;
+   box-shadow: #00000029 0px 3px 6px;
+   --width: 50%;
+}
+.letra_color{
+    color: #9B9B9B;
+    font-family: Century Gothic;
+}

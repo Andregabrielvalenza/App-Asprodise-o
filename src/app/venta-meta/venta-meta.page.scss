@@ -1,0 +1,144 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+
+/* fon del menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titutlo_subtitulo{
+    color: #898989;
+    font-family: Century Gothic;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#btn_add{
+    background-color: #ffffff;
+    position: absolute;
+    right: 0;
+    top: 22px;
+}
+.div_azul{
+    background-color: #9B9B9B;
+    width: 33%;
+    height: 1.5px;
+    margin-top: 32px;
+}
+@media(min-width: 568px){
+    .div_azul{
+        width: 35%;
+    }
+}
+@media(min-width: 640px){
+    .div_azul{
+        width: 37%;
+    }
+}
+@media(min-width: 731px){
+    .div_azul{
+        width: 38%;
+    }
+}
+@media(min-width: 768px){
+    .div_azul{
+        width: 40%;
+    }
+}
+@media(min-width: 1024px){
+    .div_azul{
+        width: 42%;
+    }
+}
+@media(min-width: 1366px){
+    .div_azul{
+        width: 44%;
+    }
+}
+#letra_azul{
+    color: #9B9B9B;
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 500;
+}
+#padding_derecha{
+    margin-right: 15px;
+}
+#padding_izquierda{
+    margin-left: 15px;
+}
+.circulo_img_estadistica{
+    --border-radius: 50%;
+    --size: 120px;
+    display: inline-block;
+}
+.titulo_porcentaje{
+    color: #898989;
+    font-weight: 600;
+    font-family: Century Gothic;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.subtitulos_porcentaje{
+    color: #898989;
+    font-weight: 400;
+    font-family: Century Gothic;
+    margin-top: 0px;
+    font-size: 14px;
+}
+.partes_porcentaje_size{
+    color: #898989;
+    font-weight: 400;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+.margin_no_bottom{
+    margin-bottom: 0px;
+}
+.margin_no_top{
+    margin-top: 0px;
+}

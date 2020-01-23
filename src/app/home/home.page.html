@@ -1,0 +1,286 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+ <ion-grid class="ion-no-padding">
+   <ion-row class="padding_todos" style="margin-bottom: 20px;">
+     <ion-col size="12">
+      <h1 class="titulos_subtitulos_todos ion-text-center">Información de seguros e inversión</h1>
+     </ion-col>
+     <ion-col size="4" class="derecha_izquierda_col">
+       <button class="img_btn">
+         <img src="assets/img/e24dacde6050dd1a4c0408967e63fa2d@3x.png" class="img_altuta_btn">
+         <p class="margin_top_bo">Vida</p>
+       </button>
+     </ion-col>
+     <ion-col size="4" class="derecha_izquierda_col">
+      <button class="img_btn">
+        <img src="assets/img/6e46a654383c2de90f439bcd24c7cc88@3x.png" class="img_altuta_btn">
+        <p class="margin_top_bo">Inversion</p>
+      </button>
+     </ion-col>
+     <ion-col size="4" class="derecha_izquierda_col">
+      <button class="img_btn">
+        <img src="assets/img/6e46a654383c2de90f439bcd24c7cc88@3x.png" class="img_altuta_btn">
+        <p class="margin_top_bo">Salud</p>
+      </button>
+     </ion-col>
+   </ion-row>
+   <ion-row id="row_center" style="margin-bottom: 20px;">
+     <ion-col size="12" style="text-align: center;">
+       <div id="div_circulo">
+        <img src="assets/img/Grupo_697.png" id="icon_circulo">
+       </div>
+     </ion-col>
+     <ion-col size="12" class="ion-text-center">
+       <h2 id="subtitulo_cuadrado">Congratulations Javier</h2>
+     </ion-col>
+     <ion-col size="12" class="ion-text-center">
+       <p id="descrip_cuadrado">You reached your goal of USD 12,000. View what you have to do next</p>
+     </ion-col>
+   </ion-row>
+   <ion-row class="padding_todos ion-justify-content-center" style="margin-bottom: 20px;">
+     <ion-col size="12" size-sm="11" size-md="6">
+      <ion-card style="margin: 0px;">
+        <h2 class="titulos_subtitulos_todos">Reporte de venta</h2>
+        <ion-thumbnail style="--size: 100;">
+          <img src="assets/img/estadistico.png">
+        </ion-thumbnail>
+        <h2 class="titulos_subtitulos_todos" style="margin-bottom: 0px;">Mis comisiones</h2>
+        <ion-row>
+        <ion-col size="8" style="padding-left: 0px;">
+          <div>
+            <ion-row>
+              <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px;padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 size_pa_pen">Pagadas</p>
+              </ion-col>
+              <ion-col size="7" size-md="7" style="padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 bolder_number">USD 1,002.00</p>
+              </ion-col>
+            </ion-row>
+          </div>
+          <div>
+            <ion-row>
+              <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px; padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 size_pa_pen">Pendientes</p>
+              </ion-col>
+              <ion-col size="7" size-md="7" style="padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 bolder_number">USD 4,921.00</p>
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-col>
+        <ion-col size="4" class="ion-text-end" style="align-self: flex-end;padding-right: 0px;">
+          <p class="color_89" id="mes_number" style="margin-bottom: 0px;">12 meses / <span id="mes_bol_color">Mes</span></p>
+        </ion-col>
+        </ion-row>
+      </ion-card>
+     </ion-col>
+     <ion-col size="12" size-sm="11" size-md="6">
+      <ion-card style="margin: 0px;">
+        <h2 class="titulos_subtitulos_todos">Reporte de venta</h2>
+        <ion-thumbnail style="--size: 100;">
+          <img src="assets/img/estadistico.png">
+        </ion-thumbnail>
+        <h2 class="titulos_subtitulos_todos" style="margin-bottom: 0px;">Mis comisiones</h2>
+        <ion-row>
+        <ion-col size="8" style="padding-left: 0px;">
+          <div>
+            <ion-row>
+              <ion-col size="5" size-sm="3" size-md="5" size-lg="4" style="padding-left: 0px;padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 size_pa_pen">Pagadas</p>
+              </ion-col>
+              <ion-col size="7" size-md="7" size-lg="8" style="padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 bolder_number">USD 1,002.00</p>
+              </ion-col>
+            </ion-row>
+          </div>
+          <div>
+            <ion-row>
+              <ion-col size="5" size-sm="3" size-md="5" size-lg="4" style="padding-left: 0px; padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 size_pa_pen">Pendientes</p>
+              </ion-col>
+              <ion-col size="7" size-md="7" size-lg="8" style="padding-top: 1px;padding-bottom: 0px;">
+                <p class="margin_p_number color_89 bolder_number">USD 4,921.00</p>
+              </ion-col>
+            </ion-row>
+          </div>
+        </ion-col>
+        <ion-col size="4" class="ion-text-end" style="align-self: flex-end;padding-right: 0px;">
+          <p class="color_89" id="mes_number" style="margin-bottom: 0px;">12 meses / <span id="mes_bol_color">Mes</span></p>
+        </ion-col>
+        </ion-row>
+      </ion-card>
+     </ion-col>
+   </ion-row>
+   <ion-row class="padding_todos" style="margin-bottom: 20px;">
+    <ion-col size="12">
+      <h2 class="titulos_subtitulos_todos ion-text-center">Eventos siguientes</h2>
+     </ion-col>
+     <ion-col size="12">
+       <ion-row>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+          <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+            <div class="circulo_even">
+             <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+            </div>
+            <div class="padding_dere_izq_event">
+              <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+              <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+            </div>
+            <button class="btn_horizontal_puntos btn_color_rojo_verde" (click)="notifications($event)">
+             <ion-icon name="more" id="girar_horizontal"></ion-icon>
+            </button>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+         <ion-card class="card_event fondo_blanco_card" style="display: flex;">
+           <div class="circulo_even">
+            <ion-img :src="assets/img/Grupo_718.png" class="img_cir_even"></ion-img>
+           </div>
+           <div class="padding_dere_izq_event">
+             <p class="margin_bottom_0 color_plomo_blanco_1 espacio_1">Angela Turpo Micanegeli</p>
+             <p class="margin_top_1 color_plomo_blanco_2 espacio_1">Life insurance - Expiring today!!!</p>
+           </div>
+           <button class="btn_horizontal_puntos btn_color_blanco">
+            <ion-icon name="more" id="girar_horizontal"></ion-icon>
+           </button>
+         </ion-card>
+       </ion-col>
+       <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+         <ion-card class="card_event fondo_verde_card" style="display: flex;">
+           <div class="circulo_even">
+            <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+           </div>
+           <div class="padding_dere_izq_event">
+             <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+             <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+           </div>
+           <button class="btn_horizontal_puntos btn_color_rojo_verde">
+            <ion-icon name="more" id="girar_horizontal"></ion-icon>
+           </button>
+         </ion-card>
+       </ion-col>
+       <ion-col size="12" size-sm="6" size-lg="4" size-xl="3" class="margint_botom_5">
+         <ion-card class="card_event fondo_rojo_card" style="display: flex;">
+           <div class="circulo_even">
+            <ion-img :src="assets/img/Grupo_719.png" class="img_cir_even"></ion-img>
+           </div>
+           <div class="padding_dere_izq_event">
+             <p class="margin_bottom_0 color_blanco_rojo_verde_1 espacio_1">Angela Turpo Micanegeli</p>
+             <p class="margin_top_1 color_blanco_rojo_verde_2 espacio_1">Life insurance - Expiring today!!!</p>
+           </div>
+           <button class="btn_horizontal_puntos btn_color_rojo_verde">
+            <ion-icon name="more" id="girar_horizontal"></ion-icon>
+           </button>
+         </ion-card>
+       </ion-col>
+       </ion-row>
+     </ion-col>
+    <ion-col size="8" size-sm="6" size-md="4" size-xl="2" offset="2" offset-sm="3" offset-md="4" offset-xl="5" style="margin-top: 20px;">
+      <button class="btn_cerde_todos">
+        Ver inbox
+      </button>
+    </ion-col>
+   </ion-row>
+   <ion-row class="padding_todos" style="margin-bottom: 20px;">
+    <ion-col size="12">
+      <h2 class="titulos_subtitulos_todos ion-text-center">Eventos siguientes</h2>
+     </ion-col>
+     <ion-col size="12" style="padding: 0;">
+      <ion-slides pager="true" [options]="slideOpts" style="border-radius: 11px 0px 0px 11px;">
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/4b6eec340187aec78a8856b4c5c411ad.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/30048085aa96a4590d0bea7a9d0040a3.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/875c0127a76e9b13c6a9f3d35e076f51.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/4b6eec340187aec78a8856b4c5c411ad.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/30048085aa96a4590d0bea7a9d0040a3.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+        <ion-slide>
+          <ion-card class="card_slider">
+            <ion-thumbnail slot="start" class="tumbnall_completo">
+              <ion-img :src="assets/img/875c0127a76e9b13c6a9f3d35e076f51.png" class="img_slider"></ion-img>
+            </ion-thumbnail>
+            <ion-card-content class="padding_cortar_conten_card">
+              <h6 class="subtitulo_slide">Is Trump Pushing Health Insurance Innovation Or An ACA Rollback?</h6>
+              <p class="descrip_car_slide">On his first day in office, as part of his mission to dismantle the Affordable Care Act, President Donald Trump signed an order promising to give states flexibility “to create a more free and open healthcare market.”</p>
+              <button class="btn_card_slide">Leer mas</button>
+            </ion-card-content>
+          </ion-card>
+        </ion-slide>
+      </ion-slides>
+     </ion-col>
+     <ion-col size="8" size-sm="6" size-md="4" size-xl="2" offset="2" offset-sm="3" offset-md="4" offset-xl="5" style="margin-top: 20px;">
+      <button class="btn_cerde_todos">
+        Todos los artículos
+      </button>
+    </ion-col>
+   </ion-row>
+ </ion-grid>
+</ion-content>

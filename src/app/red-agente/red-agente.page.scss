@@ -1,0 +1,162 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+/* fon del menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titutlo_subtitulo{
+    color: #898989;
+    font-family: Century Gothic;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.color_48_orde_font{
+    color: #8D8D8D;
+    font-family: Century Gothic;
+}
+.absulte_left{
+    position: absolute;
+    left: 22px;
+    z-index: 9999;
+    --border-radius:50%;
+    --size: 60px;
+    top: 10px;
+}
+.card_clientes{
+    margin-top: 0px;
+    width: 100%;
+    margin-right: 0;
+    margin-left: 28px;
+    padding-left: 35px;
+    padding-top: 0px;
+    padding-bottom: 4spx;
+    border: 1px solid #D9D9D9;
+    border-radius: 10px;
+    margin-bottom: 0px;
+    display: flex;
+    padding-right: 0px;
+    justify-content: space-between;
+}
+.titulo_card{
+    font-family: Century Gothic;
+    color: #151515;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 13px;
+    font-weight: 700;
+    margin-bottom: 0px;
+}
+.subtitulo_card{
+    font-family: Century Gothic;
+    color: #888888;
+    margin-top: 0px;
+    font-size: 13px;
+    font-weight: 700;
+}
+.btn_icono{
+    height: 100%;
+    background-color: #EBEBEB;
+    width: 13%;
+}
+.btn_icono::before{
+    content: '>';
+    color: #707070;
+    top: 0;
+    bottom: 0;
+    font-size: 16px;
+}
+.div_flex_separados{
+    display: flex;
+    justify-content: space-between;
+}
+.width_agrandar{
+    width: auto;
+    padding-right: 10px;
+}
+.div_vertical_linea{
+    width: 6px;
+    height: 100%;
+    border-radius: 5px;
+}
+.div_verde{
+    background-color: #45EB3E;
+}
+.div_rojo{
+    background-color: #FF0000;
+}
+.padding_end{
+    padding-right: 20px;
+}
+.padding_end_cero{
+    padding-right: 0px;
+}
+.padding_start{
+    padding-left: 40px;
+}
+.absulte_left_img{
+    position: absolute;
+    left: 51px;
+    z-index: 9999;
+    --border-radius:50%;
+    --size: 55px;
+    top: 10px;
+}
+.padding_start_2{
+    padding-left: 74px;
+}
+.absulte_left_img_2{
+    position: absolute;
+    left: 80px;
+    z-index: 9999;
+    --border-radius:50%;
+    --size: 60px;
+    top: 10px;
+}

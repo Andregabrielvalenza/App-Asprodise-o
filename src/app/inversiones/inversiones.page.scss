@@ -1,0 +1,154 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+/* fon del menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titutlo_subtitulo{
+    color: #898989;
+    font-family: Century Gothic;
+    font-weight: 900;
+    font-size: 20px;
+}
+.btn_card{
+    background-color: #ffffff;
+    padding-top: 8px;
+    width: 100%;
+}
+.display_center_img{
+    display: inline-block;
+    width: 50%;
+}
+@media(min-width: 568px){
+    .display_center_img{
+        width: 40%;
+    }
+}
+.margin_top_card{
+    margin-top: 0px;
+    padding-top: 12px;
+}
+ion-thumbnail{
+    width: 100%;
+}
+.div_azul{
+    background-color: #002581;
+    width: 30%;
+    height: 1.5px;
+    margin-top: 32px;
+}
+@media(min-width: 568px){
+    .div_azul{
+        width: 35%;
+    }
+}
+@media(min-width: 640px){
+    .div_azul{
+        width: 37%;
+    }
+}
+@media(min-width: 731px){
+    .div_azul{
+        width: 38%;
+    }
+}
+@media(min-width: 768px){
+    .div_azul{
+        width: 40%;
+    }
+}
+@media(min-width: 1024px){
+    .div_azul{
+        width: 42%;
+    }
+}
+@media(min-width: 1366px){
+    .div_azul{
+        width: 44%;
+    }
+}
+#letra_azul{
+    color: #002581;
+    font-family: Century Gothic;
+    font-size: 20px;
+    font-weight: 900;
+}
+#padding_derecha{
+    margin-right: 15px;
+}
+#padding_izquierda{
+    margin-left: 15px;
+}
+.card_btn{
+    padding-left: 0px;
+    padding-right: 0px;
+    margin: 0;
+    background-color: #002581;
+    border: 1px solid #E8E8E8;
+    box-shadow: #00000029 0px 3px 6px;
+    margin-bottom: 2px;
+    border-radius: 5px;
+    height: 68px;
+}
+.btn_azul{
+    background-color: #002581;
+    width: 100%;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: Century Gothic;
+    height: 100%;
+}
+.img_btn{
+    width: 28px;
+    margin-right: 20px;
+}

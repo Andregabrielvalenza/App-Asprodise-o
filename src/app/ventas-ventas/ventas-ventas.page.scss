@@ -1,0 +1,118 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+/*fin menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.color_89{
+    color: #898989;
+}
+.bolder_titulos{
+    font-weight: 900;
+    font-family: Century Gothic;
+    font-size: 22px;
+}
+ion-select{
+    border: 1px solid #C9C9C9;
+    border-radius: 12px;
+    color: #898989;
+    font-family: Century Gothic;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+.font_bol{
+    font-weight: 100;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+ion-item{
+    --inner-padding-end: 20px;
+    --padding-start:0px
+}
+.icon_list{
+    padding-right: 10px;
+    font-size: 20px;
+    color: #002581;
+}
+.icon_derecha{
+    width: 6px;
+    height: 6px;
+    border-bottom: solid 1px #002581;
+    border-right: solid 1px #002581;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    margin-right: 1rem;
+  }
+.margin_bottom_p{
+    margin-bottom: 0px;
+}
+.margin_top_p{
+    margin-bottom: 0px;
+}
+.titulo_negro_list{
+    color: #151515;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+.subtitulo_plomo_list{
+    color: #8D8D8D;
+    font-family: Century Gothic;
+    font-size: 14px;
+}
+.padding_col_list{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+@media(min-width: 768px){
+    .padding_col_list{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}

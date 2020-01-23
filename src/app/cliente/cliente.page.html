@@ -1,0 +1,137 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>      
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid class="ion-no-padding">
+    <ion-row class="padding_todos ion-justify-content-center">
+      <ion-col size="12" class="ion-text-center ion-padding-top ion-padding-bottom">
+        <h1 class="titutlo_subtitulo">Mis clientes</h1>
+      </ion-col>
+      <ion-col size="12" class="ion-text-center">
+        <ion-thumbnail class="perfil">
+          <img src="assets/img/caaeefc071159c0d579cc1d1d823e239@2x.png">
+        </ion-thumbnail>
+        <p id="titulo">Micael James Jimenez Rodriguez</p>
+        <p class="number_gerente_size">06.04.1988 (31 años)</p>
+        <div id="linea_ploma"></div>
+        <p class="number_gerente_size">Gerente general, Coca - loca</p>
+      </ion-col>
+    </ion-row>
+    <ion-row id="fondo_row" class="ion-margin-top">
+      <ion-col size="5" size-sm="6" class="ion-text-end color_letra ion-padding-lg-end">
+        <p>Correo</p>
+        <p>Teléfono</p>
+        <p>Nacionalidad</p>
+        <p>Dirección</p>
+      </ion-col>
+      <ion-col size="7" size-sm="6" class="color_letra">
+        <p>Micael@gmail.com</p>
+        <p>+51 998 876 135</p>
+        <p>Peruano</p>
+        <p>Calle de la luna 1234, Urb magisterial, Cusco Peru.</p>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="12" class="ion-text-center ion-padding-top ion-padding-bottom">
+        <h1 class="titutlo_subtitulo">Productos activos</h1>
+      </ion-col>
+      <!--<ion-col size="12">
+        <ion-list *ngIf="is_loading === false">
+          <div *ngFor="let item of items"> 
+            <ion-item (click)="view_item (item)" [className]="item.reveal_child === true ? 'selected item-header' : 'no-selected item-header'">
+              <ion-icon id="icon-padding" [src]="get_icon (item)"></ion-icon>
+              Seguro de vida - Mulinational insurance life
+              <ion-icon slot="end" name="ios-arrow-forward" [ngStyle]="{'transform': item.reveal_child ? 'rotate(90deg)' : 'none' }" class="transition"></ion-icon>
+            </ion-item>
+  
+            <ion-card *ngIf="item.reveal_child" class="card-content" [@animation-top]>
+              <ion-spinner style="width: 100%; margin-top: 1rem;" class="ion-text-center" *ngIf="item.is_loading" name="circles"></ion-spinner>
+              
+            </ion-card>
+          </div>
+        </ion-list>
+      </ion-col>-->
+      <ion-col size="12" class="ion-no-padding">
+        <ion-item class="color_size_acordion">
+          <ion-icon name="arrow-forward" mode="ios" class="icon_acordion"></ion-icon>
+          Seguro de vida - Mulinational insurance life
+        </ion-item>
+        <ion-card class="card_acordion">
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="5" size-sm="6" class="ion-text-end color_letra ion-padding-lg-end">
+              <p>Póliza Nº</p>
+              <p>Inicio</p>
+              <p>Plan</p>
+              <p>Cobertura</p>
+              <p>Prima modal</p>
+              <p>Prima anual</p>
+              <p>Modo de prima</p>
+            </ion-col>
+            <ion-col size="7" size-sm="6" class="color_letra">
+              <p>lsjAHF-34 34234-dk</p>
+              <p>02.12.2019</p>
+              <p>Garanty term (10 años)</p>
+              <p>USD 150,000.00</p>
+              <p>USD 150,000.00</p>
+              <p>USD 150,000.00</p>
+              <p>Anual</p>
+            </ion-col>
+            <ion-col size="5" size-sm="4" size-md="3" class="ion-margin-top">
+              <button class="btn_ver_soli">Ver solicitud</button>
+            </ion-col>
+            <ion-col size="5" size-sm="4" size-md="3" class="ion-margin-top">
+              <button class="btn_ver_soli">Ver Poliza</button>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+      <ion-col size="12" class="ion-no-padding">
+        <ion-item class="color_size_acordion">
+          <ion-icon name="arrow-forward" mode="ios" class="icon_acordion"></ion-icon>
+          Seguro de vida - Mulinational insurance life
+        </ion-item>
+        <ion-card class="card_acordion">
+          <ion-row class="ion-justify-content-center">
+            <ion-col size="5" size-sm="6" class="ion-text-end color_letra ion-padding-lg-end">
+              <p>Póliza Nº</p>
+              <p>Inicio</p>
+              <p>Plan</p>
+              <p>Cobertura</p>
+              <p>Prima modal</p>
+              <p>Prima anual</p>
+              <p>Modo de prima</p>
+            </ion-col>
+            <ion-col size="7" size-sm="6" class="color_letra">
+              <p>lsjAHF-34 34234-dk</p>
+              <p>02.12.2019</p>
+              <p>Garanty term (10 años)</p>
+              <p>USD 150,000.00</p>
+              <p>USD 150,000.00</p>
+              <p>USD 150,000.00</p>
+              <p>Anual</p>
+            </ion-col>
+            <ion-col size="5" size-sm="4" size-md="3" class="ion-margin-top">
+              <button class="btn_ver_soli">Ver solicitud</button>
+            </ion-col>
+            <ion-col size="5" size-sm="4" size-md="3" class="ion-margin-top">
+              <button class="btn_ver_soli">Ver Poliza</button>
+            </ion-col>
+          </ion-row>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>  
+</ion-content>

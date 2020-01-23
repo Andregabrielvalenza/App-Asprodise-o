@@ -1,0 +1,77 @@
+<ion-app>
+  <ion-menu side="start" menuId="first" type="overlay">
+    <ion-content>
+      <ion-grid class="padding_espacio">
+        <ion-row class="" id="bajar_header">
+          <ion-col size="1" class="ion-text-start">
+            <ion-icon name="close" id="icono_close" mode="ios" (click)="open_menu ()"></ion-icon>
+          </ion-col>
+          <ion-col size="5" offset="6" class="ion-text-end">
+            <p class="color_negro" style="margin-bottom: 0px; margin-top: 10px;">SPLASH</p>
+            <p class="color_negro" style="margin-top: 0px;">REGISTRO</p>
+          </ion-col>
+          <ion-col size="12" class="ion-text-center">
+            <ion-thumbnail class="ion-margin-bottom">
+              <img src="assets/img/set-of-people-icons-with-faces-vector.jpg">
+            </ion-thumbnail>
+            <p id="nombre_perfil">Juan Jose Altamarino Caceres</p>
+            <ion-icon name="create" id="editar_nombre" mode="md"></ion-icon>
+          </ion-col>
+        </ion-row>
+      </ion-grid> 
+      <ion-list lines="none" class="border_bottom ion-margin-top">
+        <ion-menu-toggle auto-hide="false" >
+          <ion-item (click)="go_page ('turismo-circuito')" class="ion-text-center ">
+            <ion-label class="color_menu">Información de seguros</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('mis-clientes')" class="ion-text-center"><ion-label class="color_menu">Mis clientes</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('red-agente')" class="ion-text-center"><ion-label class="color_menu">Mis redes</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('venta-meta')" class="ion-text-center"><ion-label class="color_menu">Metas de venta</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('inbox')" class="ion-text-center"><ion-label class="color_menu">Inbox</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('ventas-comisiones')" class="ion-text-center"><ion-label class="color_menu">Ventas y comisiones</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('agenda')" class="ion-text-center"><ion-label class="color_menu">Agenda</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="presentAlertRadio ()" class="ion-text-center"><ion-label class="color_menu">Danos tu opinion</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('creditos')" class="ion-text-center"><ion-label class="color_menu">Comparte con tus amigos</ion-label></ion-item>
+        </ion-menu-toggle>
+
+        <div></div>
+        <ion-menu-toggle auto-hide="false">
+          <ion-item (click)="go_page ('creditos')" class="ion-text-center"><ion-label class="color_menu">Cerrar sesión</ion-label></ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet main></ion-router-outlet>
+</ion-app>

@@ -1,0 +1,125 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-grid class="ion-no-padding">
+  <ion-row class="padding_todos" style="margin-bottom: 20px;">
+    <ion-col size="12" style="margin-bottom: 20px;">
+      <h1 class="color_89 ion-text-center bolder_titulos">Vetas y comisiones</h1>
+    </ion-col>
+    <ion-col size="12" class="ion-no-padding ion-margin-bottom">
+      <ion-row>
+        <ion-col size="7">
+          <h6 class="color_89 font_size_aset">Asset</h6>
+        </ion-col>
+        <ion-col size="5" class="ion-text-end ion-align-self-baseline" style="align-items: flex-end;">
+          <h6 class="color_89 number_agentes">768 Agentes</h6>
+          <div class="line_negro line_negro_3number"></div>
+        </ion-col>
+        <ion-col size="12" size-md="6">
+         <ion-card style="margin: 0px;">
+           <h2 class="titulos_subtitulos_todos">Reporte de venta</h2>
+           <ion-thumbnail style="--size: 100;">
+            <img src="assets/img/estadistico.png">
+          </ion-thumbnail>
+           <h2 class="titulos_subtitulos_todos" style="margin-bottom: 0px;">Mis comisiones</h2>
+           <ion-row>
+           <ion-col size="8" style="padding-left: 0px;">
+             <div>
+               <ion-row>
+                 <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px;padding-top: 1px;padding-bottom: 0px;">
+                   <p class="margin_p_number color_89 size_pa_pen">Pagadas</p>
+                 </ion-col>
+                 <ion-col size="7" style="padding-top: 1px;padding-bottom: 0px;">
+                   <p class="margin_p_number color_89 bolder_number">USD 1,002.00</p>
+                 </ion-col>
+               </ion-row>
+             </div>
+             <div>
+               <ion-row>
+                 <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px; padding-top: 1px;padding-bottom: 0px;">
+                   <p class="margin_p_number color_89 size_pa_pen">Pendientes</p>
+                 </ion-col>
+                 <ion-col size="7" style="padding-top: 1px;padding-bottom: 0px;">
+                   <p class="margin_p_number color_89 bolder_number">USD 4,921.00</p>
+                 </ion-col>
+               </ion-row>
+             </div>
+           </ion-col>
+           <ion-col size="4" class="ion-text-end" style="align-self: flex-end;padding-right: 0px;">
+             <p class="color_89" id="mes_number" style="margin-bottom: 0px;">semana / <span id="mes_bol_color">Mes</span></p>
+           </ion-col>
+           </ion-row>
+         </ion-card>
+        </ion-col>
+        <ion-col size="6" offset="3" class="ion-padding-start ion-padding-end ion-margin-top">
+          <button class="btn_blanco">Ver detalle</button>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="12" class="ion-no-padding ion-margin-bottom">
+      <ion-row>
+        <ion-col size="7">
+          <h6 class="color_89 font_size_aset">Mi segunda empresa</h6>
+        </ion-col>
+        <ion-col size="5" class="ion-text-end" style="align-items: flex-end;">
+          <h6 class="color_89 number_agentes">26 Agentes</h6>
+          <div class="line_negro line_negro_2number"></div>
+        </ion-col>
+        <ion-col size="12" size-md="6">
+          <ion-card style="margin: 0px;">
+            <h2 class="titulos_subtitulos_todos">Reporte de venta</h2>
+            <ion-thumbnail style="--size: 100;">
+              <img src="assets/img/estadistico.png">
+            </ion-thumbnail>
+            <h2 class="titulos_subtitulos_todos" style="margin-bottom: 0px;">Mis comisiones</h2>
+            <ion-row>
+            <ion-col size="8" style="padding-left: 0px;">
+              <div>
+                <ion-row>
+                  <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px;padding-top: 1px;padding-bottom: 0px;">
+                    <p class="margin_p_number color_89 size_pa_pen">Pagadas</p>
+                  </ion-col>
+                  <ion-col size="7" style="padding-top: 1px;padding-bottom: 0px;">
+                    <p class="margin_p_number color_89 bolder_number">USD 1,002.00</p>
+                  </ion-col>
+                </ion-row>
+              </div>
+              <div>
+                <ion-row>
+                  <ion-col size="5" size-sm="3" size-md="5" style="padding-left: 0px; padding-top: 1px;padding-bottom: 0px;">
+                    <p class="margin_p_number color_89 size_pa_pen">Pendientes</p>
+                  </ion-col>
+                  <ion-col size="7" style="padding-top: 1px;padding-bottom: 0px;">
+                    <p class="margin_p_number color_89 bolder_number">USD 4,921.00</p>
+                  </ion-col>
+                </ion-row>
+              </div>
+            </ion-col>
+            <ion-col size="4" class="ion-text-end" style="align-self: flex-end;padding-right: 0px;">
+              <p class="color_89" id="mes_number" style="margin-bottom: 0px;">semana / <span id="mes_bol_color">Mes</span></p>
+            </ion-col>
+            </ion-row>
+          </ion-card>
+         </ion-col>
+        <ion-col size="6" size-md="4" offset="3" offset-md="4" class="ion-padding-start ion-padding-end ion-margin-top">
+          <button class="btn_blanco">Ver detalle</button>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>

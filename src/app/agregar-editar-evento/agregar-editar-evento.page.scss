@@ -1,0 +1,120 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+/* fon del menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titutlo_subtitulo{
+    color: #898989;
+    font-family: Century Gothic;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#subtitulo_pequeño{
+    color: #898989;
+    font-family: Century Gothic;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#padding_col_titulo{
+    padding-top: 20px;
+}
+@media(min-width: 768px){
+    #padding_col_titulo{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.colo_00{
+    --color: #000000;
+    font-family: Century Gothic;
+}
+.input_select{
+    --background: #e7e7e7;
+    --padding-top: 15px;
+    --padding-bottom: 15px;
+    --padding-start: 15px;
+    --padding-end: 15px;
+    --placeholder-color: #000000;
+    font-weight: 600;
+}
+ion-select{
+    background-color: #e7e7e7;
+    --placeholder-color: #000000;
+    font-weight: 600;
+}
+.btn_formulario{
+    background-color: #FF0000;
+    color: #ffffff;
+    border:1px solid #A8A8A8;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 22px;
+    font-family: Century Gothic;
+    font-size: 16px;
+}
+#btn_derecha{
+    background-color: transparent;
+    position: absolute;
+    left: 0;
+    top: 28px;
+}
+#icono_derecha{
+    color: #898989;
+    font-size: 20px;
+}
+@media(min-width: 768px){
+    #btn_derecha{
+        top: 56px;
+    }
+    #icono_derecha{
+        font-size: 30px;
+    }
+}

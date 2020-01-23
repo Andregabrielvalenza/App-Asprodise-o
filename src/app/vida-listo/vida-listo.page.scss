@@ -1,0 +1,110 @@
+@font-face{
+    font-family: Century Gothic;
+    src : url('/assets/fonts/07558_CenturyGothic.ttf')
+}
+/* menu navar*/
+button:focus{
+    outline: none;
+}
+ion-toolbar{
+    --background: #EBEBEB;
+}
+ion-card{
+    --background: #ffffff;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 25px;
+}
+.cuadrado_rojo_cabeza{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #FF0000;
+    position: absolute;
+    right: 13px;
+    bottom: 4px;
+}
+.number_nav{
+    font-size: 10px;
+    margin-top: 2px;
+    color: #fff;
+}
+.icon_tamaño{
+    font-size: 20px;
+    
+}
+#icono_left{
+    padding-right: 10px;
+}
+#img_top{
+    margin-top: 4px;
+}
+.img_redonda_header{
+    --border-radius: 50%;
+}
+/* fon del menu*/
+.padding_todos{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.titutlo_subtitulo{
+    color: #898989;
+    font-family: Century Gothic;
+    font-weight: 900;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#subtitulo_pequeño{
+    color: #898989;
+    font-family: Century Gothic;
+    font-size: 20px;
+    margin-top: 5px;
+}
+#padding_col_titulo{
+    padding-top: 20px;
+}
+@media(min-width: 768px){
+    #padding_col_titulo{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+}
+.btn_solicitar_web{
+    width: 100%;
+    background-color: #ffffff;
+    font-family: Century Gothic;
+    color: #151515;
+    border: 1px solid #A8A8A8;
+    font-size: 1rem;
+    border-radius: 22px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+.color_font_family{
+    color: #151515;
+    font-family: Century Gothic;
+}
+#margin_top_bottom{
+    margin-top: 85px;
+    margin-bottom: 75px;
+}
+@media(min-width: 375px){
+    #margin_top_bottom{
+        margin-top: 110px;
+        margin-bottom: 100px;
+    }
+}
+@media(min-width: 411px){
+    #margin_top_bottom{
+        margin-top: 140px;
+        margin-bottom: 130px;
+    }
+}
+@media(min-width: 568px){
+    #margin_top_bottom{
+        margin-top: 85px;
+        margin-bottom: 75px;
+    }
+}

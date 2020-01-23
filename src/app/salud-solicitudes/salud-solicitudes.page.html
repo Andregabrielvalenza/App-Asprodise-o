@@ -1,0 +1,58 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-card style="display: flex;">
+      <ion-icon name="menu" class="icon_tamaño" (click)="open_menu ()"></ion-icon>
+      <ion-input placeholder="Buscar contenido" style="--padding-start: 20px; --padding-end: 20px;--color: #A7A7A7"></ion-input>
+      <ion-icon name="search" class="icon_tamaño" id="icono_left"></ion-icon>
+      <ion-thumbnail class="img_redonda_header">
+        <img src="assets/img/651985f94076db6b2a477cf5b69d8a47.png" id="img_top">
+      </ion-thumbnail>
+      <div class="cuadrado_rojo_cabeza">
+        <p class="number_nav ion-text-center">1</p>
+      </div>
+    </ion-card>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+<ion-grid class="ion-no-padding">
+  <ion-row class="padding_todos ion-justify-content-center">
+    <ion-col size="12" class="ion-text-center" id="padding_col_titulo">
+      <img src="assets/img/a8ff65e7de21d4a66fa3d02c0b55ed9a.png">
+      <h1 class="titutlo_subtitulo">Solicitudes</h1>
+    </ion-col>
+    <ion-col size="12" class="ion-no-padding">
+      <ion-row>
+        <ion-col size="12" size-sm="6">
+          <ion-card class="ion-no-margin ion-text-center padding_top_bottom_card">
+            <p class="titulo_negro">Best indexed</p>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6">
+          <ion-card class="ion-no-margin ion-text-center padding_top_bottom_card">
+            <p class="titulo_negro">producto B</p>
+          </ion-card>
+        </ion-col>
+        <ion-col size="12" size-sm="6">
+          <ion-card class="ion-no-margin ion-text-center padding_top_bottom_card">
+            <p class="titulo_negro">Otro producto</p>
+          </ion-card>
+        </ion-col>
+      </ion-row>
+    </ion-col>
+    <ion-col size="10" size-sm="6" size-md="5" class="margin_top_espacio">
+      <ion-item id="tabal_btn">
+        Ver tabla de Requisitos de asegurabilidad
+      </ion-item>
+    </ion-col>
+    <ion-col size="12" class="margin_top_espacio ion-text-center">
+      <p class="titulo_negro ion-no-margin">Enlace a la web</p>
+    </ion-col>
+    <ion-col size="6" size-sm="4" class="margin_top_espacio">
+      <button id="visita_btn">
+        Visita web
+      </button>
+    </ion-col>
+  </ion-row>
+</ion-grid>
+</ion-content>
